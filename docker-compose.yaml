@@ -1,0 +1,12 @@
+services:
+  vue_template:
+    container_name: vue_tmplt
+    image: vue_tmplt
+    restart: unless-stopped
+    build:
+      context: .
+    volumes:
+      - ./vue_tmplt:/vue_tmplt
+      
+    ports:
+      - "5071:5071"
