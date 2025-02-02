@@ -4,27 +4,31 @@ import { ref } from 'vue'
 defineProps({
   msg: String,
 })
-
-const count = ref(0)
 </script>
 
 <template>
   <div class="text-center">
-    <h1>{{ msg }}</h1>
+    <h1 class="py-8 text-7xl font-semibold">
+      {{ msg }}
+    </h1>
+    <br>
 
     <div class="card">
-      <p class="text-2xl">
+      <p class="text-xl">
         Edit
         <code>components/HelloWorld.vue</code> to test HMR
       </p>
     </div>
+    <br>
 
-    <p>
+    <p class="underline decoration-wavy text-2xl font-bold">
       Check out
       <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
         >create-vue</a
       >, the official Vue + Vite starter
     </p>
+    <br> 
+    
     <p>
       Learn more about IDE Support for Vue in the
       <a
@@ -33,12 +37,14 @@ const count = ref(0)
         >Vue Docs Scaling up Guide</a
       >.
     </p>
-    <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+    <br>
+    
+    <p class="">
+      Click on the Vite and Vue logos to learn more
+    </p>
   </div>
 </template>
 
 <style scoped>
-.read-the-docs {
-  color: #888;
-}
+
 </style>
