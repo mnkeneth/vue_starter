@@ -3,7 +3,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <div class="">
+  <div>
     <div class="flex justify-center column-2 gap-24 p-8">
       <div>
         <img class="h-36" src="/vite.svg" alt="Vite logo" />
