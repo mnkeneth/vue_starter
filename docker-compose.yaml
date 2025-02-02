@@ -6,7 +6,7 @@ services:
     build:
       context: .
     volumes:
-      - ./vue_tmplt:/vue_tmplt
+      - ./vue_folder:/vue_folder
       
     ports:
       - "5071:5071"
