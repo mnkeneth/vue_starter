@@ -21,7 +21,7 @@ defineProps({
     </div>
     <br>
 
-    <p class="underline decoration-wavy text-2xl font-bold">
+    <p class="underline decoration-wavy text-2xl font-bold decoration-red-500">
       Check out
       <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
         >create-vue</a
